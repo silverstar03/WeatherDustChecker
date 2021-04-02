@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:fillAfter="true">
+
+    <!-- 투명도 -->
+    <alpha
+        android:duration="1000"
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0" />
+
+    <!-- 위치 -->
+    <translate
+        android:duration="1000"
+        android:fromYDelta="0%"
+        android:toYDelta="-10%" />
+
+</set>
